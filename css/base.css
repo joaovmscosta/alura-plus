@@ -1,0 +1,24 @@
+:root{
+    /*-----CORES-----*/
+    --primary-color: #ffffff;
+    --secondary-color: #C0C0C0;
+    --btn-primary-color:#167BF7;
+    --bg-primary-color:#00030C;
+
+    /*-----FONTS-----*/
+    --font-primary: 'Inter';
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--bg-primary-color);
+    color: var(--primary-color);
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 400;
+}

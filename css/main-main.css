@@ -1,0 +1,28 @@
+.secundario__imagem{
+    width:80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo{
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: .1em;
+}
+
+.descricao__texto{
+    color: var(--secondary-color);
+}
+
+.secundario__btn{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.container__descricao{
+    padding: 2em;
+}

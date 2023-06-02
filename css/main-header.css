@@ -1,0 +1,45 @@
+.principal{
+    background-image: url("/assets/img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain; /*expande a imagem de fundo para a tag toda*/
+    align-items: center; /*alinha todos os elementos em bloco ao centro em relação ao pai (grid or flexbox)*/
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.container__btn{
+background-color: var(--btn-primary-color);
+border-radius: 5px;
+color: var(--primary-color);
+padding: 1rem;text-align: center;
+display: block;
+margin-bottom: 1em;
+}
+
+.btn_secondary{
+    border: 2px solid var(--primary-color);
+    background-color: transparent;
+}
+
+.container__aviso{
+    font-size: calc(1rem - 4px);
+    color: var(--secondary-color);
+}
+
+.container__titulo{
+    font-size: calc(2rem - 8px);
+    font-weight: 700;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa{
+    margin: 0 6em;
+}
